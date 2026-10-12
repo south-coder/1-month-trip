@@ -14,7 +14,7 @@ export default function WelcomeScreen() {
       </View>
       <Text style={s.eyebrow}>HELLO, TRAVELER</Text>
       <Text style={s.h1}>
-        안녕! 나는 루모야.{"\n"}이번 여행, 같이 준비하자.
+        안녕하세요! 저는 루모예요.{"\n"}이번 여행, 같이 준비할까요?
       </Text>
       <Text style={s.body}>
         내 실력과 여행 일정에 맞춘 일본어.{"\n"}외우는 공부를 넘어, 여행에서
