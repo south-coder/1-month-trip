@@ -1,0 +1,55 @@
+import { StyleSheet } from "react-native";
+import { colors as C } from "./tokens";
+export const travelStyles = StyleSheet.create({
+  welcomeArt: { alignSelf: "center", marginVertical: 25 },
+  stepRow: {
+    flexDirection: "row",
+    gap: 13,
+    alignItems: "center",
+    paddingVertical: 13,
+  },
+  stepCircle: {
+    width: 28,
+    height: 28,
+    borderRadius: 14,
+    backgroundColor: "#E2E9D5",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  fieldLabel: {
+    fontSize: 12,
+    fontWeight: "600",
+    color: C.green,
+    marginTop: 20,
+    marginBottom: 10,
+  },
+  input: {
+    backgroundColor: "white",
+    borderWidth: 1,
+    borderColor: "#DBE1D1",
+    borderRadius: 11,
+    padding: 14,
+    color: C.ink,
+    fontSize: 14,
+    marginTop: 6,
+  },
+  twoColumns: { flexDirection: "row", gap: 14 },
+  mapCard: { marginTop: 27 },
+  mapRow: { flexDirection: "row", gap: 15 },
+  mapRail: { alignItems: "center" },
+  mapCircle: {
+    width: 44,
+    height: 44,
+    borderRadius: 22,
+    backgroundColor: "#E5EBD9",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  mapLine: { height: 36, width: 1, backgroundColor: "#C7D3BB" },
+  mapIndex: {
+    fontSize: 9,
+    letterSpacing: 1.2,
+    color: C.muted,
+    marginBottom: 4,
+  },
+});

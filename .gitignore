@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+node_modules/
+.expo/
+dist/
+build/
+coverage/
+__pycache__/
+.pytest_cache/
+.venv/
+*.pyc
+.DS_Store
+artifacts/*.log
+.playwright/
+dist-ios/

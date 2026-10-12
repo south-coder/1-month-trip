@@ -1,0 +1,30 @@
+{
+  "name": "@1monthtrip/mobile",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "web": "expo start --web --port 8081",
+    "build": "expo export --platform web",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^15.0.3",
+    "expo": "~57.0.27",
+    "expo-audio": "~57.0.5",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-native": "^0.86.3",
+    "react-native-web": "^0.21.2"
+  },
+  "devDependencies": {
+    "@types/react": "~19.2.2",
+    "eslint": "^9.39.0",
+    "typescript": "~5.9.2",
+    "typescript-eslint": "^8.46.0",
+    "vitest": "^3.2.4"
+  }
+}

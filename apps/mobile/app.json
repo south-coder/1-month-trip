@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "1 Month Trip",
+    "slug": "1-month-trip",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.southcoder.onemonthtrip"
+    },
+    "android": { "package": "com.southcoder.onemonthtrip" },
+    "web": { "bundler": "metro", "name": "1 Month Trip · iOS Preview" }
+  }
+}
