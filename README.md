@@ -3,7 +3,8 @@
 여행을 위한 일본어 학습 앱의 개발 미리보기입니다. Expo / React Native / TypeScript 기반입니다.
 
 - [iOS 형태 웹 미리보기 HTML](previews/1MonthTrip-iOS-preview.html)
-- [40초 Instagram 릴스 MP4](media/1MonthTrip-Reel-1080x1920-40s.mp4)
+- [새 카메라 연출 릴스 MP4](media/1MonthTrip-Cinematic-Reel-1080x1920-40s.mp4)
+- [기본40초 Instagram 릴스 MP4](media/1MonthTrip-Reel-1080x1920-40s.mp4)
 - [모듈 구조 및 개발 실행 안내](apps/mobile/README.md)
 - [영상 구성과 제작 정보](media/README.md)
 
